@@ -1,0 +1,499 @@
+curl localhost:8080/mutate -H "X-Dgraph-CommitNow: true" -XPOST -d $'
+{
+  set {
+   _:car1 <name> "fence goods vehicle、drop slide platform goods vehicle、dump goods vehicle" .
+   _:car1 <number_of_axles> "2" .
+   _:car1 <Max_total_mass_upper_limit> "3500" .
+   _:car1 <Outline_size_requirement> "6000、2550、4000" .
+   _:car1 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car2 <name> "fence goods vehicle、drop slide platform goods vehicle、dump goods vehicle" .
+   _:car2 <number_of_axles> "2" .
+   _:car2 <Max_total_mass_upper_limit> "8000" .
+   _:car2 <Max_total_mass_lower_limit> "3500" .
+   _:car2 <Outline_size_requirement> "7000、2550、4000" .
+   _:car2 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .   
+   
+   _:car3 <name> "fence goods vehicle、drop slide platform goods vehicle、dump goods vehicle" .
+   _:car3 <number_of_axles> "2" .
+   _:car3 <Max_total_mass_upper_limit> "12000" .
+   _:car3 <Max_total_mass_lower_limit> "8000" .
+   _:car3 <Outline_size_requirement> "8000、2550、4000" .
+   _:car3 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car4 <name> "fence goods vehicle、drop slide platform goods vehicle、dump goods vehicle" .
+   _:car4 <number_of_axles> "2" .
+   _:car4 <Max_total_mass_lower_limit> "12000" .
+   _:car4 <Outline_size_requirement> "9000、2550、4000" .
+   _:car4 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car5 <name> "fence goods vehicle、drop slide platform goods vehicle、dump goods vehicle" .
+   _:car5 <number_of_axles> "3" .
+   _:car5 <Max_total_mass_upper_limit> "20000" .
+   _:car5 <Outline_size_requirement> "11000、2550、4000" .
+   _:car5 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car6 <name> "fence goods vehicle、drop slide platform goods vehicle、dump goods vehicle" .
+   _:car6 <number_of_axles> "3" .
+   _:car6 <Max_total_mass_lower_limit> "20000" .
+   _:car6 <Outline_size_requirement> "12000、2550、4000" . 
+   _:car6 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+
+   _:car7 <name> "fence goods vehicle、drop slide platform goods vehicle、dump goods vehicle" .
+   _:car7 <number_of_axles> "4" .
+   _:car7 <number_of_steering_axes> "2" . 
+   _:car7 <Outline_size_requirement> "12000、2550、4000" . 
+   _:car7 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car8 <name> "fence goods trailer、drop slide platform goods trailer、dump goods trailer" .
+   _:car8 <number_of_axles> "1" .
+   _:car8 <Outline_size_requirement> "8600、2550、4000" . 
+   _:car8 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+
+   _:car9 <name> "fence goods trailer、drop slide platform goods trailer、dump goods trailer" .
+   _:car9 <number_of_axles> "2" .
+   _:car9 <Outline_size_requirement> "10000、2550、4000" . 
+   _:car9 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .   
+   
+   _:car10 <name> "fence goods trailer、drop slide platform goods trailer、dump goods trailer" .
+   _:car10 <number_of_axles> "3" .
+   _:car10 <Outline_size_requirement> "13000、2550、4000" .      
+   _:car10 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car11 <name> "Three-wheeled car" .
+   _:car11 <special> "-" .
+   _:car11 <Outline_size_requirement> "4600、1600、2000" .
+   _:car11 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car12 <name> "Three-wheeled car" .
+   _:car12 <special> "Designed with a space for the rear of the driver.s seat" .
+   _:car12 <Outline_size_requirement> "5200、1800、2200" .
+   _:car12 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car13 <name> "Low speed truck" .
+   _:car13 <special> "-" .
+   _:car13 <Outline_size_requirement> "6000、2000、2500" .
+   _:car13 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car14 <name> "Truck and semi-trailer" .
+   _:car14 <special> "Special work vehicle" .
+   _:car14 <Outline_size_requirement> "Meet the relevant standards、2550、4000" .
+   _:car14 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm.;The radius of gyration of the semi-trailer should not exceed 2040mm;The horizontal distance from the center axis of the semi-trailer to the end of the semi-trailer vehicle should not exceed 12000mm ``except for semi-trailers carrying 45ft containers``;The height of the semi-trailer saddle carrying the standard container at no load ``the height of the central position of the towing main pin`` shall meet the following requirements:1.A semi-trailer tractor carrying a standard container of 2591mm height should not exceed 1320mm;2.A semi-trailer tractor carrying a standard container of 2896mm should not exceed 1110mm" .   
+   
+   _:car15 <name> "Truck and semi-trailer" .
+   _:car15 <special> "Refrigerated truck" .
+   _:car15 <Outline_size_requirement> "12000、2600、4000" .
+   _:car15 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm.;The radius of gyration of the semi-trailer should not exceed 2040mm;The horizontal distance from the center axis of the semi-trailer to the end of the semi-trailer vehicle should not exceed 12000mm ``except for semi-trailers carrying 45ft containers``;The height of the semi-trailer saddle carrying the standard container at no load ``the height of the central position of the towing main pin`` shall meet the following requirements:1.A semi-trailer tractor carrying a standard container of 2591mm height should not exceed 1320mm;2.A semi-trailer tractor carrying a standard container of 2896mm should not exceed 1110mm" .
+   
+   _:car16 <name> "Truck and semi-trailer" .
+   _:car16 <special> "-" .
+   _:car16 <Outline_size_requirement> "12000、2550、4000" .
+   _:car16 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm.;The radius of gyration of the semi-trailer should not exceed 2040mm;The horizontal distance from the center axis of the semi-trailer to the end of the semi-trailer vehicle should not exceed 12000mm ``except for semi-trailers carrying 45ft containers``;The height of the semi-trailer saddle carrying the standard container at no load ``the height of the central position of the towing main pin`` shall meet the following requirements:1.A semi-trailer tractor carrying a standard container of 2591mm height should not exceed 1320mm;2.A semi-trailer tractor carrying a standard container of 2896mm should not exceed 1110mm" .
+
+   _:car17 <name> "Passenger car and two-axle passenger car" .
+   _:car17 <special> "-" .
+   _:car17 <Outline_size_requirement> "12000、2550、4000" .
+   _:car17 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car18 <name> "Passenger car and two-axle passenger car" .
+   _:car18 <special> "Double-decker city bus" .
+   _:car18 <Outline_size_requirement> "12000、2550、4200" .
+   _:car18 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car19 <name> "Three-axle passenger car" .
+   _:car19 <special> "-" .
+   _:car19 <Outline_size_requirement> "13700、2550、4000" .
+   _:car19 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+  
+   _:car20 <name> "Three-axle passenger car" .
+   _:car20 <special> "Double-decker city bus" .
+   _:car20 <Outline_size_requirement> "13700、2550、4200" .  
+   _:car20 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car21 <name> "Single articulated bus" .
+   _:car21 <special> "-" .
+   _:car21 <Outline_size_requirement> "13700、2550、4000" .
+   _:car21 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." . 
+ 
+   _:car22 <name> "Single articulated bus" .
+   _:car22 <special> "Double-decker city bus" .
+   _:car22 <Outline_size_requirement> "13700、2550、4200" . 
+   _:car22 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .   
+
+   _:car23 <name> "Semi-trailer" . 
+   _:car23 <special> "-"  .
+   _:car23 <Outline_size_requirement> "13750、2550、4000" .
+   _:car23 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm.;The radius of gyration of the semi-trailer should not exceed 2040mm.;The horizontal distance from the center axis of the semi-trailer to the end of the semi-trailer vehicle should not exceed 12000mm ``except for semi-trailers carrying 45ft containers``;The height of the semi-trailer saddle carrying the standard container at no load ``the height of the central position of the towing main pin`` shall meet the following requirements:1.A semi-trailer tractor carrying a standard container of 2591mm height should not exceed 1320mm;2.A semi-trailer tractor carrying a standard container of 2896mm should not exceed 1110mm" .
+   
+   _:car24 <name> "Semi-trailer" . 
+   _:car24 <special> "Shipping 45 container"  .
+   _:car24 <Outline_size_requirement> "13950、2550、4000" . 
+   _:car24 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm.;The radius of gyration of the semi-trailer should not exceed 2040mm;The horizontal distance from the center axis of the semi-trailer to the end of the semi-trailer vehicle should not exceed 12000mm ``except for semi-trailers carrying 45ft containers``;The height of the semi-trailer saddle carrying the standard container at no load ``the height of the central position of the towing main pin`` shall meet the following requirements:1.A semi-trailer tractor carrying a standard container of 2591mm height should not exceed 1320mm;2.A semi-trailer tractor carrying a standard container of 2896mm should not exceed 1110mm" .
+
+   _:car25 <name> "Semi-trailer" . 
+   _:car25 <special> "Refrigerated truck"  .
+   _:car25 <Outline_size_requirement> "13750、2600、4000" .
+   _:car25 <Other_requirements_for_outline_dimensions> "The radius of gyration of the semi-trailer should not exceed 2040mm;The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm.;The radius of gyration of the semi-trailer should not exceed 2040mm.;The horizontal distance from the center axis of the semi-trailer to the end of the semi-trailer vehicle should not exceed 12000mm ``except for semi-trailers carrying 45ft containers``;The height of the semi-trailer saddle carrying the standard container at no load ``the height of the central position of the towing main pin`` shall meet the following requirements:1.A semi-trailer tractor carrying a standard container of 2591mm height should not exceed 1320mm;2.A semi-trailer tractor carrying a standard container of 2896mm should not exceed 1110mm" .   
+   
+   _:car26 <name> "Center axle, drawbar trailer" .
+   _:car26 <special> "-" .
+   _:car26 <Outline_size_requirement> "12000、2550、4000" .
+   _:car26 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car27 <name> "Center axle, drawbar trailer" .
+   _:car27 <special> "drawbar vehicle transport trailers" .
+   _:car27 <Outline_size_requirement> "8000、2550、4000" .
+   _:car27 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car28 <name> "Passenger train" .
+   _:car28 <special> "-" .
+   _:car28 <Outline_size_requirement> "14500、2550、4000" .
+   _:car28 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .   
+   
+   _:car29 <name> "Passenger train" .
+   _:car29 <special> "Refrigerated truck" .
+   _:car29 <Outline_size_requirement> "14500、2600、4000" .
+   _:car29 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car30 <name> "Articulated train" .
+   _:car30 <special> "-" .
+   _:car30 <Outline_size_requirement> "17100、2550、4000" .
+   _:car30 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car31 <name> "Articulated train" .
+   _:car31 <special> "Shipping 45 container" .
+   _:car31 <Outline_size_requirement> "13950、2550、4000" .
+   _:car31 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car32 <name> "Articulated train" .
+   _:car32 <special> "Refrigerated truck" .
+   _:car32 <Outline_size_requirement> "17100、2600、4000" . 
+   _:car32 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car33 <name> "Truck train" .
+   _:car33 <special> "-" .
+   _:car33 <Outline_size_requirement> "20000、2550、4000" .
+   _:car33 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+  
+   _:car34 <name> "Truck train" .
+   _:car34 <special> "Refrigerated truck" .
+   _:car34 <Outline_size_requirement> "20000、2600、4000" .
+   _:car34 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:car35 <name> "Truck train" .
+   _:car35 <special> "Center axle vehicle transport train" .
+   _:car35 <Outline_size_requirement> "22000、2550、4000" .
+   _:car35 <Other_requirements_for_outline_dimensions> "The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.;When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.;The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm." .
+   
+   _:allowable_axle_load_limit1 <name> "Car、trailer" .
+   _:allowable_axle_load_limit1 <requirement> "single_axis1" .
+   _:allowable_axle_load_limit1 <type> "Single tire on each side" .
+   _:allowable_axle_load_limit1 <special> "-" .
+   _:allowable_axle_load_limit1 <Maximum_allowable_axle_load_limit> "7000" .
+  
+   _:allowable_axle_load_limit2 <name> "Car、trailer" .
+   _:allowable_axle_load_limit2 <requirement> "single_axis1" .
+   _:allowable_axle_load_limit2 <type> "Single tire on each side" .
+   _:allowable_axle_load_limit2 <special> "The installation nominal section width is not less than 425mm" .
+   _:allowable_axle_load_limit2 <Maximum_allowable_axle_load_limit> "10000" .  
+  
+   _:allowable_axle_load_limit3 <name> "Car、trailer" .
+   _:allowable_axle_load_limit3 <requirement> "single_axis1" .
+   _:allowable_axle_load_limit3 <type> "Double tires on each side, non-drive shaft" .
+   _:allowable_axle_load_limit3 <special> "-" .
+   _:allowable_axle_load_limit3 <Maximum_allowable_axle_load_limit> "10000" .  
+  
+   _:allowable_axle_load_limit4 <name> "Car、trailer" .
+   _:allowable_axle_load_limit4 <requirement> "single_axis1" .
+   _:allowable_axle_load_limit4 <type> "Double tires on each side, non-drive shaft" .
+   _:allowable_axle_load_limit4 <special> "Install air suspension" .
+   _:allowable_axle_load_limit4 <Maximum_allowable_axle_load_limit> "11500" .     
+   
+   _:allowable_axle_load_limit5 <name> "Car、trailer" .
+   _:allowable_axle_load_limit5 <requirement> "single_axis1" .
+   _:allowable_axle_load_limit5 <type> "Double tires on each side, drive shaft" .
+   _:allowable_axle_load_limit5 <special> "-" .
+   _:allowable_axle_load_limit5 <Maximum_allowable_axle_load_limit> "11500" .        
+   
+   _:allowable_axle_load_limit6 <name> "Car" .
+   _:allowable_axle_load_limit6 <requirement> "Two-axis group" .
+   _:allowable_axle_load_limit6 <Upper_wheelbase> "1000" .
+   _:allowable_axle_load_limit6 <special> "-" .
+   _:allowable_axle_load_limit6 <Maximum_allowable_axle_load_limit> "11500" .  
+   
+   _:allowable_axle_load_limit7 <name> "Car、trailer" .
+   _:allowable_axle_load_limit7 <requirement> "Two-axis group" .
+   _:allowable_axle_load_limit7 <Upper_wheelbase> "1000" .
+   _:allowable_axle_load_limit7 <Lower_wheelbase> "-" .
+   _:allowable_axle_load_limit7 <special> "trailer" .
+   _:allowable_axle_load_limit7 <Maximum_allowable_axle_load_limit> "11000" . 
+
+   _:allowable_axle_load_limit8 <name> "Car、trailer" .
+   _:allowable_axle_load_limit8 <requirement> "Two-axis group" .
+   _:allowable_axle_load_limit8 <Upper_wheelbase> "1300" .
+   _:allowable_axle_load_limit8 <Lower_wheelbase> "1000" .
+   _:allowable_axle_load_limit8 <special> "-" .
+   _:allowable_axle_load_limit8 <Maximum_allowable_axle_load_limit> "16000" . 
+   
+   _:allowable_axle_load_limit9 <name> "Car、trailer" .
+   _:allowable_axle_load_limit9 <requirement> "Two-axis group" .
+   _:allowable_axle_load_limit9 <Upper_wheelbase> "1800" .
+   _:allowable_axle_load_limit9 <Lower_wheelbase> "1300" .
+   _:allowable_axle_load_limit9 <special> "-" .
+   _:allowable_axle_load_limit9 <Maximum_allowable_axle_load_limit> "18000" . 
+   
+   _:allowable_axle_load_limit10 <name> "Car、trailer" .
+   _:allowable_axle_load_limit10 <requirement> "Two-axis group" .
+   _:allowable_axle_load_limit10 <Upper_wheelbase> "1800" .
+   _:allowable_axle_load_limit10 <Lower_wheelbase> "1300" .
+   _:allowable_axle_load_limit10 <special> "The car drive shaft is a double tire on each side of each axle and is equipped with an air suspension" .
+   _:allowable_axle_load_limit10 <Maximum_allowable_axle_load_limit> "19000" .    
+
+   _:allowable_axle_load_limit11 <name> "Car、trailer" .
+   _:allowable_axle_load_limit11 <requirement> "Two-axis group" .
+   _:allowable_axle_load_limit11 <Lower_wheelbase> "1800" .
+   _:allowable_axle_load_limit11 <special> "trailer" .
+   _:allowable_axle_load_limit11 <Maximum_allowable_axle_load_limit> "18000" . 
+   
+   _:allowable_axle_load_limit12 <name> "Car、trailer" .
+   _:allowable_axle_load_limit12 <requirement> "Triaxial group" .
+   _:allowable_axle_load_limit12 <Upper_wheelbase> "1300" .
+   _:allowable_axle_load_limit12 <special> "-" .
+   _:allowable_axle_load_limit12 <Maximum_allowable_axle_load_limit> "21000" . 
+   
+   _:allowable_axle_load_limit13 <name> "Car、trailer" .
+   _:allowable_axle_load_limit13 <requirement> "Triaxial group" .
+   _:allowable_axle_load_limit13 <Lower_wheelbase> "1300" .
+   _:allowable_axle_load_limit13 <Upper_wheelbase> "1400" .
+   _:allowable_axle_load_limit13 <special> "-" .
+   _:allowable_axle_load_limit13 <Maximum_allowable_axle_load_limit> "24000" .    
+   
+   _:allowable_axle_load_limit14 <name> "Car train、truck" .
+   _:allowable_axle_load_limit14 <requirement> "-" .
+   _:allowable_axle_load_limit14 <special> "-" .
+   _:allowable_axle_load_limit14 <Maximum_allowable_axle_load_limit> "Multiply the number of tires in this shaft by 3000" . 
+   
+  _:allowable_total_mass_limit1 <name> "Three-wheeled car" . 
+  _:allowable_total_mass_limit1 <special> "-" .
+  _:allowable_total_mass_limit1 <Association_requirements> "allowable_axle_load_limit" .  
+  _:allowable_total_mass_limit1 <Maximum_allowable_total_mass_limit> "2000/The maximum allowable axle load of each axle" .
+  
+  _:allowable_total_mass_limit2 <name> "Three-wheeled car" . 
+  _:allowable_total_mass_limit2 <special> "Designed with a space for the rear of the driver.s seat" .
+  _:allowable_total_mass_limit2 <Association_requirements> "allowable_axle_load_limit" .  
+  _:allowable_total_mass_limit2 <Maximum_allowable_total_mass_limit> "3000/The maximum allowable axle load of each axle" .
+   
+  _:allowable_total_mass_limit3 <name> "Passenger car" . 
+  _:allowable_total_mass_limit3 <special> "-" .
+  _:allowable_total_mass_limit3 <Association_requirements> "allowable_axle_load_limit" .  
+  _:allowable_total_mass_limit3 <Maximum_allowable_total_mass_limit> "4500/The maximum allowable axle load of each axle" .
+   
+  _:allowable_total_mass_limit4 <name> "Two-axle passenger car、truck、semi-trailer tractor" . 
+  _:allowable_total_mass_limit4 <special> "-" .  
+  _:allowable_total_mass_limit4 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit4 <Maximum_allowable_total_mass_limit> "18000/The maximum allowable axle load of each axle" . 
+
+  _:allowable_total_mass_limit5 <name> "Two-axle passenger car、truck、semi-trailer tractor" . 
+  _:allowable_total_mass_limit5 <special> "Low speed truck" .
+  _:allowable_total_mass_limit5 <Association_requirements> "allowable_axle_load_limit" .  
+  _:allowable_total_mass_limit5 <Maximum_allowable_total_mass_limit> "4500/The maximum allowable axle load of each axle" .  
+   
+  _:allowable_total_mass_limit6 <name> "Three-axle passenger car, truck, semi-trailer tractor" . 
+  _:allowable_total_mass_limit6 <special> "-" .
+  _:allowable_total_mass_limit6 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit6 <Maximum_allowable_total_mass_limit> "18000/The maximum allowable axle load of each axle" .   
+
+  _:allowable_total_mass_limit7 <name> "Three-axle passenger car, truck, semi-trailer tractor" . 
+  _:allowable_total_mass_limit7 <special> "The car drive shaft is a double tire on each side of each axle and is equipped with an air suspension" .  
+  _:allowable_total_mass_limit7 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit7 <Maximum_allowable_total_mass_limit> "19000/The maximum allowable axle load of each axle" .
+
+  _:allowable_total_mass_limit8 <name> "Single articulated bus" . 
+  _:allowable_total_mass_limit8 <special> "-" .  
+  _:allowable_total_mass_limit8 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit8 <Maximum_allowable_total_mass_limit> "28000/The maximum allowable axle load of each axle" .   
+ 
+  _:allowable_total_mass_limit9 <name> "Double steering axle four-axle truck" . 
+  _:allowable_total_mass_limit9 <special> "-" . 
+  _:allowable_total_mass_limit9 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit9 <Maximum_allowable_total_mass_limit> "31000/The maximum allowable axle load of each axle" .  
+ 
+  _:allowable_total_mass_limit10 <name> "Double steering axle four-axle truck" . 
+  _:allowable_total_mass_limit10 <special> "The car drive shaft is a double tire on each side of each axle and is equipped with an air suspension" . 
+  _:allowable_total_mass_limit10 <Association_requirements> "allowable_axle_load_limit" .  
+  _:allowable_total_mass_limit10 <Maximum_allowable_total_mass_limit> "32000/The maximum allowable axle load of each axle" .    
+   
+  _:allowable_total_mass_limit11 <name> "Semi-trailer" . 
+  _:allowable_total_mass_limit11 <number_of_axles> "1" .
+  _:allowable_total_mass_limit11 <special> "-" .  
+  _:allowable_total_mass_limit11 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit11 <Maximum_allowable_total_mass_limit> "18000/The maximum allowable axle load of each axle" . 
+
+  _:allowable_total_mass_limit12 <name> "Semi-trailer" . 
+  _:allowable_total_mass_limit12 <number_of_axles> "2" .
+  _:allowable_total_mass_limit12 <special> "-" .  
+  _:allowable_total_mass_limit12 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit12 <Maximum_allowable_total_mass_limit> "35000/The maximum allowable axle load of each axle" .  
+
+  _:allowable_total_mass_limit13 <name> "Semi-trailer" . 
+  _:allowable_total_mass_limit13 <number_of_axles> "3" .
+  _:allowable_total_mass_limit13 <special> "-" .  
+  _:allowable_total_mass_limit13 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit13 <Maximum_allowable_total_mass_limit> "40000/The maximum allowable axle load of each axle" . 
+
+  _:allowable_total_mass_limit14 <name> "Towbar trailer" . 
+  _:allowable_total_mass_limit14 <number_of_axles> "2" .
+  _:allowable_total_mass_limit14 <special> "Single tire on each side of each shaft" .  
+  _:allowable_total_mass_limit14 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit14 <Maximum_allowable_total_mass_limit> "12000/The maximum allowable axle load of each axle" .   
+   
+  _:allowable_total_mass_limit14 <name> "Towbar trailer" . 
+  _:allowable_total_mass_limit14 <number_of_axles> "2" .
+  _:allowable_total_mass_limit14 <special> "Single tire on each side of each shaft;Installation of nominal section width not less than 425mm tire" .  
+  _:allowable_total_mass_limit14 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit14 <Maximum_allowable_total_mass_limit> "18000/The maximum allowable axle load of each axle" .   
+
+  _:allowable_total_mass_limit15 <name> "Towbar trailer" . 
+  _:allowable_total_mass_limit15 <number_of_axles> "2" .
+  _:allowable_total_mass_limit15 <special> "One axle is a single tire on each side, and the other shaft is a double tire on each side." .  
+  _:allowable_total_mass_limit15 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit15 <Maximum_allowable_total_mass_limit> "16000/The maximum allowable axle load of each axle" .  
+  
+  _:allowable_total_mass_limit16 <name> "Towbar trailer" . 
+  _:allowable_total_mass_limit16 <number_of_axles> "2" .
+  _:allowable_total_mass_limit16 <special> "One axle is a single tire on each side, and the other shaft is a double tire on each side." .  
+  _:allowable_total_mass_limit16 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit16 <Maximum_allowable_total_mass_limit> "16000/The maximum allowable axle load of each axle" .
+
+  _:allowable_total_mass_limit17 <name> "Center axle trailer" . 
+  _:allowable_total_mass_limit17 <number_of_axles> "1" .
+  _:allowable_total_mass_limit17 <special> "-" .  
+  _:allowable_total_mass_limit17 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit17 <Maximum_allowable_total_mass_limit> "10000/The maximum allowable axle load of each axle" .   
+
+  _:allowable_total_mass_limit18 <name> "Center axle trailer" . 
+  _:allowable_total_mass_limit18 <number_of_axles> "2" .
+  _:allowable_total_mass_limit18 <special> "-" .  
+  _:allowable_total_mass_limit18 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit18 <Maximum_allowable_total_mass_limit> "18000/The maximum allowable axle load of each axle" .  
+  
+  _:allowable_total_mass_limit19 <name> "Center axle trailer" . 
+  _:allowable_total_mass_limit19 <number_of_axles> "3" .
+  _:allowable_total_mass_limit19 <special> "-" .  
+  _:allowable_total_mass_limit19 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit19 <Maximum_allowable_total_mass_limit> "24000/The maximum allowable axle load of each axle" .    
+  
+  _:allowable_total_mass_limit20 <name> "Car train" . 
+  _:allowable_total_mass_limit20 <number_of_axles> "3" .
+  _:allowable_total_mass_limit20 <special> "-" .  
+  _:allowable_total_mass_limit20 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit20 <Maximum_allowable_total_mass_limit> "27000/The maximum allowable axle load of each axle" .  
+  
+  _:allowable_total_mass_limit21 <name> "Car train" . 
+  _:allowable_total_mass_limit21 <number_of_axles> "4" .
+  _:allowable_total_mass_limit21 <special> "-" .  
+  _:allowable_total_mass_limit21 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit21 <Maximum_allowable_total_mass_limit> "36000/The maximum allowable axle load of each axle" .    
+  
+  _:allowable_total_mass_limit22 <name> "Car train" . 
+  _:allowable_total_mass_limit22 <number_of_axles> "4" .
+  _:allowable_total_mass_limit22 <special> "An articulated train with a drive shaft of two tires per side of each axle and equipped with an air suspension and a distance between the two axles of the semi-trailer greater than or equal to 1800 mm" .  
+  _:allowable_total_mass_limit22 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit22 <Maximum_allowable_total_mass_limit> "37000/The maximum allowable axle load of each axle" .   
+  
+  _:allowable_total_mass_limit23 <name> "Car train" . 
+  _:allowable_total_mass_limit23 <number_of_axles> "5" .
+  _:allowable_total_mass_limit23 <special> "-" .  
+  _:allowable_total_mass_limit23 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit23 <Maximum_allowable_total_mass_limit> "43000/The maximum allowable axle load of each axle" .   
+
+  _:allowable_total_mass_limit24 <name> "Car train" . 
+  _:allowable_total_mass_limit24 <number_of_axles> "6" .
+  _:allowable_total_mass_limit24 <special> "-" .  
+  _:allowable_total_mass_limit24 <Association_requirements> "allowable_axle_load_limit" .
+  _:allowable_total_mass_limit24 <Maximum_allowable_total_mass_limit> "49000/The maximum allowable axle load of each axle" .
+  
+  }
+}
+' | python -m json.tool | less
+
+
+
+
+
+其他要求：
+Other_requirements_for_outline_dimensions
+车辆间接视野装置单侧外伸量不应超出车辆宽度250mm
+The indirect extension of the vehicle indirect view device shall not exceed 250 mm of the vehicle width.
+车辆的顶窗、换气装置等处于开启状态时不应超出车辆高度300mm
+When the top window of the vehicle, the ventilation device, etc. are in the open state, the vehicle height should not exceed 300mm.
+汽车的后轴与牵引杆挂车的前轴之间的距离不应小于3000mm
+The distance between the rear axle of the vehicle and the front axle of the towbar trailer should not be less than 3000mm.
+半挂车牵引销中心轴线到半挂车车辆长度最后端的水平距离不应大于12000mm（运送45ft集装箱的半挂车除外）
+The horizontal distance from the center axis of the semi-trailer to the end of the semi-trailer vehicle should not exceed 12000mm ``except for semi-trailers carrying 45ft containers``
+
+运送标准集装箱的半挂牵引车鞍座空载时高度（牵引主销中心位置的高度）应满足以下要求：
+The height of the semi-trailer saddle carrying the standard container at no load ``the height of the central position of the towing main pin`` shall meet the following requirements:
+——运送高度为2591mm标准集装箱的半挂牵引车，不应超过1320mm
+——A semi-trailer tractor carrying a standard container of 2591mm height should not exceed 1320mm
+——运送高度为2896mm标准集装箱的半挂牵引车，不应超过1110mm
+——A semi-trailer tractor carrying a standard container of 2896mm should not exceed 1110mm
+
+
+
+The height of the semi-trailer saddle carrying the standard container at no load ``the height of the central position of the towing main pin`` shall meet the following requirements:
+——A semi-trailer tractor carrying a standard container of 2591mm height should not exceed 1320mm
+——A semi-trailer tractor carrying a standard container of 2896mm should not exceed 1110mm
+
+
+
+索引
+curl localhost:8080/alter -XPOST -d $'
+  name: string @index(term) .
+  number_of_axles: int @index(int) .
+  number_of_steering_axes: int @index(int) .
+  special: string @index(term) .
+  Outline_size_requirement: string @index(term) .
+  Other_requirements_for_outline_dimensions: string @index(term) .
+  requirement: string @index(term) .
+  type: string @index(term) .
+  Association_requirements: string @index(term) .
+  Maximum_allowable_axle_load_limit: string @index(term) .
+  Maximum_allowable_total_mass_limit: string @index(term) .
+  Max_total_mass_upper_limit: int @index(int) .
+  Max_total_mass_lower_limit: int @index(int) .
+' | python -m json.tool | less
+
+
+查询
+curl localhost:8080/query -XPOST -d $'
+{
+ me(func: anyofterms(name,"fence goods vehicle")) @filter(eq(number_of_axles,"2")) 
+ {
+   name
+   number_of_axes
+   Outline_size_requirement
+   number_of_steering_axes
+   special
+   Other_requirements_for_outline_dimensions
+   requirement
+   type
+   Association_requirements
+   Maximum_allowable_axle_load_limit
+   Maximum_allowable_total_mass_limit
+   Max_total_mass_upper_limit
+   Max_total_mass_lower_limit
+  }
+}
+' | python -m json.tool | less
+
+curl localhost:8080/query -XPOST -d $'
+{
+ me(func: eq(number_of_axles, "2")) 
+ {
+   name
+   number_of_axes
+   Outline_size_requirement
+  }
+}
+' | python -m json.tool | less
